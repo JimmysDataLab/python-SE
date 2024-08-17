@@ -9,5 +9,6 @@
 * fastapi / uvicorn
   * TO-DO personal project with fastapi
 * classes / inheritence
-  *   staticmethod
+  *   staticmethod / classmethod
   *   private variables
+  *   class variables

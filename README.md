@@ -6,4 +6,8 @@
 * virtual environments
   * venv
   * pipenv
-* fastapi
+* fastapi / uvicorn
+  * TO-DO personal project with fastapi
+* classes / inheritence
+  *   staticmethod
+  *   private variables

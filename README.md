@@ -13,3 +13,4 @@
   *   private variables
   *   class variables
 * decorators
+* generators

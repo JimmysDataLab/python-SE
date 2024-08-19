@@ -15,4 +15,6 @@
 * decorators
   * with and without parameters
 * generators
-  * yield / yield from 
+  * yield / yield from
+  * generator pipelines / file processing / comprehesion
+  * advanced use cases

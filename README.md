@@ -13,4 +13,6 @@
   *   private variables
   *   class variables
 * decorators
+  * with and without parameters
 * generators
+  * yield / yield from 

@@ -12,3 +12,4 @@
   *   staticmethod / classmethod
   *   private variables
   *   class variables
+* decorators

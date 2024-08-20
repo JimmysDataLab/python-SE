@@ -1,31 +1,34 @@
-### Setup & Run Jupyter Notebooks in VS Code w/ Virtual Environment & Kernels (Remote & Local)
+### Setup & Run Jupyter Notebooks w/ Virtual Environment & Kernels (Local)
 
-1. Create project folder and change directory into that folder
+1. Clone repo
 	```bash
-	mkdir ~/Desktop/GitHub/<reponame> && cd $_
-	
+	BASE_PATH="$HOME/Desktop/JimmysDataLab"
+	REPO_URL="https://github.com/JimmysDataLab/python-SE.git"
+	mkdir -p $BASE_PATH
+	git clone $REPO_URL "$BASE_PATH/$(basename $REPO_URL .git)"
 	```
-2. Create virtual environment
+	
+3. Create virtual environment
 	```bash
 	python3 -m venv <envname>
 	
 	```
-3. Activate virtual environment
+4. Activate virtual environment
 	```bash
 	source <envname>/bin/activate
 	
 	```
-4. Install ipykernel
+5. Install ipykernel
 	```bash
 	pip install ipykernel
 	
 	```
- 5. Create new kernel
+ 6. Create new kernel
 	```bash
 	python3 -m ipykernel install --user --name=<kernelname>
 	
 	```
-6. Start Jupyter
+7. Start Jupyter
 	```bash
 	jupyter notebook
 	

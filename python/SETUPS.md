@@ -4,7 +4,7 @@
 	It is best practise to create standalone virtual envs.
 	```bash
  	mkdir -p <venvpath>
- 	cd <venvpath>
+ 	cd $_
 	python3 -m venv <envname>
  	source <envname>/bin/activate"
 1. Clone repo

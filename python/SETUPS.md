@@ -18,15 +18,13 @@
  	touch .gitignore
  	echo ".ipynb_checkpoints/" >> .gitignore
 	```
- 
 6. Install ipykernel
 	```bash
 	pip install ipykernel
 	```
 7. Create new kernel
 	```bash
-	python3 -m ipykernel install --user --name=<kernelname>
-	
+	python3 -m ipykernel install --user --name=<kernelname>	
 	```
 8. Start Jupyter
 	```bash

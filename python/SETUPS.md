@@ -3,6 +3,7 @@
 4. Create virtual environment and activate it.
 	It is best practise to create standalone virtual envs.
 	```bash
+ 	mkdir -p <venvpath>
  	cd <venvpath>
 	python3 -m venv <envname>
  	source <envname>/bin/activate"

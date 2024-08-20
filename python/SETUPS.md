@@ -10,7 +10,7 @@
 1. Clone repo
 	```bash
 	mkdir -p <projectpath>
- 	cd <projectpath>
+ 	cd $_
 	git clone <url> 
 	```
 2. Add .gitignore

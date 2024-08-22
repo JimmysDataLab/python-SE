@@ -17,7 +17,8 @@
 * generators
   * yield / yield from
   * generator pipelines / file processing / comprehension
-  * advanced use cases
+  * advanced use cases - To do
+* JSON and Text Response
 * typing / data validation
   * typing
   * pydantic

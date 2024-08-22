@@ -17,8 +17,8 @@
 	```bash
  	cd <repo>
  	touch .gitignore
- 	echo ".ipynb_checkpoints/" >> .gitignore
-	echo ".DS_Store" >> .gitignore
+ 	echo ".ipynb_checkpoints/" >> .gitignore # Ignore this directory 
+	echo ".DS_Store" >> .gitignore # Ignore this file
 	```
 6. Install ipykernel
 	```bash

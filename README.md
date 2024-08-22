@@ -16,6 +16,8 @@
   * with and without parameters
 * generators
   * yield / yield from
-  * generator pipelines / file processing / comprehesion
+  * generator pipelines / file processing / comprehension
   * advanced use cases
-* Hi there this is a test
+* typing / data validation
+  * typing
+  * pydantic
